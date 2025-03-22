@@ -82,25 +82,32 @@ export default function ChatBot() {
     typeText(question, 0, "user");
     setInput("");
 
-    try {
-      const res = await fetch("/api/chat", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prompt: question }),
-      });
-      const data = await res.json();
-      setMessages((prev) => [...prev, { sender: "bot", text: "" }]);
-      typeText(
-        data.answer || "I couldn't process that request. Try again.",
-        0,
-        "bot"
-      );
-    } catch (error) {
-      setMessages((prev) => [
-        ...prev,
-        { sender: "bot", text: "Error connecting. Try again later." },
-      ]);
-    }
+   try {
+     const res = await fetch("/api/chat", {
+       method: "POST",
+       headers: { "Content-Type": "application/json" },
+       body: JSON.stringify({ prompt: question }),
+     });
+
+     if (!res.ok) {
+       throw new Error(`HTTP error! Status: ${res.status}`);
+     }
+
+     const data = await res.json();
+     await setMessages((prev) => [...prev, { sender: "bot", text: "" }]);
+
+     typeText(
+       data.answer || "I couldn't process that request. Try again.",
+       0,
+       "bot"
+     );
+   } catch (error) {
+     setMessages((prev) => [
+       ...prev,
+       { sender: "bot", text: "Error connecting. Try again later." },
+     ]);
+   }
+
   };
 
   const handleSubmit = (e: React.FormEvent) => {
