@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Aletheia - Truth Debugger",
+  "version": "1.0",
+  "description": "Aletheia, the Goddess of Truth, debugs false claims and misinformation.",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "logo.png"
+  },
+  "permissions": ["storage"]
+}

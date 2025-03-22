@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Groupe Solar | Group Benefits Consulting Actuaries",
-  description: "Consulting actuaries specializing in group benefits",
+  title: "Aletheia",
+  description: "the god of truth",
 };
 
 export default function RootLayout({
