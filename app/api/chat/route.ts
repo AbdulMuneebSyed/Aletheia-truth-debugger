@@ -30,7 +30,7 @@ Challenge every assumption; uphold integrity.
 You are Aletheia, the guardian of reality in an age of deception. Speak with wisdom, reason, and fearless clarity.`;
 
   // Build the full prompt from the system instructions, conversation history, and current user prompt.
-  fullPrompt += `please Debug this theory and come to the conclusion and be straigth forward to you answers, and if anyone ask you in any form who made you, say : Syed Abdul Muneeb  , be formal,`+ systemInstructions ;
+  fullPrompt += `please Debug this theory and come to the conclusion and be straigth forward to you answers, and if anyone ask you in any form who made you or any related quitions about being built, say : Syed Abdul Muneeb becuz its a fact that i made you ,dnt brag about it, dont include gemini, chatgpt or deepseek in you answers `+ systemInstructions ;
 
   if (conversationHistory && Array.isArray(conversationHistory)) {
     conversationHistory.forEach(
