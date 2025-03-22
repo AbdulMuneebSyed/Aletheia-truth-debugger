@@ -104,7 +104,7 @@ export default function ChatBot() {
    } catch (error) {
      setMessages((prev) => [
        ...prev,
-       { sender: "bot", text: "Error connecting. Try again later." },
+       { sender: "bot", text: "Error connecting. Try again later." + error },
      ]);
    }
 
