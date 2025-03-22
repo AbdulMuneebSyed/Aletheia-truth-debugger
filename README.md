@@ -12,6 +12,10 @@ Next.js Powered - Leverages Next.js for a smooth user experience.
 
 Secure & Reliable - Built with best practices.
 
+🖥️ Test It Here!
+
+You can test Aletheia live [HERE](https://aletheia-truth-debugger.vercel.app/).
+
 🛠 Installation
 
 Clone this repository:
@@ -49,10 +53,6 @@ Click on the extension icon to activate Aletheia.
 Get instant insights while browsing.
 
 Customize settings for a tailored experience.
-
-🖥️ Test It Here!
-
-You can test Aletheia live here.
 
 📜 License
 
