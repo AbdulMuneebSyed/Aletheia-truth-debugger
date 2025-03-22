@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Aletheia - Chrome Extension
 
-## Getting Started
+Aletheia is a Next.js-powered Chrome extension designed to enhance your browsing experience by providing truth-focused insights. Now available for free on Next.js!
 
-First, run the development server:
+🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Lightweight & Fast - Optimized for performance.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Seamless Integration - Works directly in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js Powered - Leverages Next.js for a smooth user experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Secure & Reliable - Built with best practices.
 
-## Learn More
+🛠 Installation
 
-To learn more about Next.js, take a look at the following resources:
+Clone this repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+git clone https://github.com/yourusername/aletheia-extension.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Navigate to the project folder:
 
-## Deploy on Vercel
+cd aletheia-extension
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Install dependencies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm install
+
+Build the project:
+
+npm run build
+
+Load the extension in Chrome:
+
+Open chrome://extensions/
+
+Enable Developer Mode
+
+Click Load unpacked and select the out directory
+
+📢 Now Available for Free on Next.js!
+
+Aletheia is now hosted on Next.js and available for free. Enjoy seamless browsing with the power of truth! 🚀
+
+💡 Usage
+
+Click on the extension icon to activate Aletheia.
+
+Get instant insights while browsing.
+
+Customize settings for a tailored experience.
+
+🖥️ Test It Here!
+
+You can test Aletheia live here.
+
+📜 License
+
+MIT License. Free to use and modify.
