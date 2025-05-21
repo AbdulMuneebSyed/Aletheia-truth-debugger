@@ -1,59 +1,59 @@
-Aletheia - Chrome Extension
+# Aletheia - Truth Debugger
 
-Aletheia is a Next.js-powered Chrome extension designed to enhance your browsing experience by providing truth-focused insights. Now available for free on Next.js!
+Aletheia is a Next.js-powered web application designed to enhance your browsing experience by providing truth-focused insights and debugging false claims in real-time.
 
-🚀 Features
+## 🚀 Features
 
-Lightweight & Fast - Optimized for performance.
+- **Lightweight & Fast** - Optimized for performance
+- **AI-Powered Analysis** - Advanced truth verification system
+- **Next.js Powered** - Leverages Next.js for a smooth user experience
+- **Secure & Reliable** - Built with best practices
 
-Seamless Integration - Works directly in your browser.
-
-Next.js Powered - Leverages Next.js for a smooth user experience.
-
-Secure & Reliable - Built with best practices.
-
-🖥️ Test It Here!
+## 🖥️ Live Demo
 
 You can test Aletheia live [HERE](https://aletheia-truth-debugger.vercel.app/).
 
-🛠 Installation
+## 🛠 Installation
 
-Clone this repository:
+1. Clone this repository:
 
-git clone https://github.com/yourusername/aletheia-extension.git
+```bash
+git clone https://github.com/AbdulMuneebSyed/Aletheia-truth-debugger
+```
 
-Navigate to the project folder:
+2. Navigate to the project folder:
 
-cd aletheia-extension
+```bash
+cd aletheia-truth-debugger
+```
 
-Install dependencies:
+3. Install dependencies:
 
+```bash
 npm install
+```
 
-Build the project:
+4. Start the development server:
 
-npm run build
+```bash
+npm run dev
+```
 
-Load the extension in Chrome:
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-Open chrome://extensions/
+## 💡 Usage
 
-Enable Developer Mode
+- Enter any claim or statement you want to verify
+- Get instant AI-powered analysis
+- Review detailed explanations and sources
+- Customize settings for a tailored experience
 
-Click Load unpacked and select the out directory
+## 📜 License
 
-📢 Now Available for Free on Next.js!
+GNU General Public License v3.0
 
-Aletheia is now hosted on Next.js and available for free. Enjoy seamless browsing with the power of truth! 🚀
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-💡 Usage
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-Click on the extension icon to activate Aletheia.
-
-Get instant insights while browsing.
-
-Customize settings for a tailored experience.
-
-📜 License
-
-MIT License. Free to use and modify.
+You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.
