@@ -19,7 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
   ];
 
   // Initialize the Gemini model
-  const API_KEY = "AIzaSyDZWZijo60xAMZOiU4Zs-2M0uWGaX9Sdcs"; // Note: Exposing API keys in client-side code is not recommended for production
+  // Key is supplied by the user at runtime and kept in local storage, never committed.
+  const API_KEY = localStorage.getItem("GEMINI_API_KEY") || prompt("Enter your Gemini API key") || "";
+  if (API_KEY) localStorage.setItem("GEMINI_API_KEY", API_KEY);
   let genAI;
   let model;
 
